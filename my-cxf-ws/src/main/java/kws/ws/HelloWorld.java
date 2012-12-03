@@ -13,4 +13,7 @@ import javax.jws.WebService;
 public interface HelloWorld {
 
     void sayHello();
+    
+    Response payBill(Request request);
+    
 }
